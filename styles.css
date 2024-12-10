@@ -2,6 +2,13 @@
     font-family: "Roboto";
 }
 
+body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: minmax(250px, 1fr) minmax(600px, 4fr);
+    grid-template-rows: 200px 1fr;
+}
+
 p {
     font-weight: 500;
 }
@@ -25,14 +32,17 @@ p {
 /*HEADER*/
 
 header {
+    grid-row: 1;
+    grid-column: 2;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    padding: 2.5em;
+    row-gap: 2em;
 }
 
 .topbar {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     align-items: center;
 }
 
@@ -94,5 +104,6 @@ button {
 /*NAV-SIDEBAR*/
 nav {
     background-color: pink;
-
+    grid-row: 1;
+    grid-column: 1;
 }
