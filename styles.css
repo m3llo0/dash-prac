@@ -2,6 +2,15 @@
     font-family: "Roboto";
 }
 
+p {
+    font-weight: 500;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .icon{
     width: 24px;
     height: 24px;
@@ -29,7 +38,7 @@ header {
 
 .search{
     display: flex;
-    flex: 1;
+    flex: 2;
     align-items: center;
     justify-content: center;
     max-width: 750px;
@@ -42,7 +51,7 @@ header {
     flex: 1 1;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 50px
 }
 
 .search-input {
@@ -53,7 +62,34 @@ header {
     width: 100%;
 }
 
+.functions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title--big{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    width: 5em;
+    height: 2em;
+    margin: 1em;
+    font-weight: 700;
+}
 
 /*NAV-SIDEBAR*/
 nav {
