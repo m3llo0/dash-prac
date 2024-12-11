@@ -99,6 +99,12 @@ button {
     height: 2em;
     margin: 1em;
     font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover{
+    background-color: #fc9292;
 }
 
 /*NAV-SIDEBAR*/
@@ -129,6 +135,11 @@ nav {
     margin: 1rem;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.navbar li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*MAIN CONTENT*/
@@ -178,6 +189,7 @@ main {
     position: absolute;
     bottom: 1.5em;
     right: 2em;
+    cursor: pointer;
 }
 
 .card-text{
