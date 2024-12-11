@@ -152,6 +152,8 @@ main {
 
 }
 
+/*PROJECT GRID*/
+
 #projects{
     margin-left: 1.5rem;
     margin-top: 1rem;
@@ -166,7 +168,7 @@ main {
     margin-top: 1rem;
 }
 
-.project-card, .announcement-card, .trending-card {
+.project-card, .notice-board, .trending-card {
     background-color: white;
     border-radius: 7px;
     box-shadow: 3px 3px 3px #cdd2d9;
@@ -194,4 +196,13 @@ main {
 
 .card-text{
     font-size: 1rem;
+}
+
+/*ANNOUNCEMENTS*/
+
+.notice-board{
+    display: grid;
+    grid-row: repeat(3,1fr);
+    width: 50px;
+    font-size: 0.1em;
 }
