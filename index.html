@@ -14,155 +14,190 @@
 </head>
 
 <body>
-        <header>
-            <div class="topbar">
-                <div class="search">
-                    <img class="icon" id="search" src="assets/icons/search.svg">
-                    <input class="search-input" type="search">
-                </div>
-                <div class="profile">
-                    <img class="icon" src="assets/icons/alerts.svg">
-                    <img class="image" id="pfp" src="assets/images/pfp.PNG">
-                    <div class="title" id="nametag">MELLO</div>
+    <header>
+        <div class="topbar">
+            <div class="search">
+                <img class="icon" id="search" src="assets/icons/search.svg">
+                <input class="search-input" type="search">
+            </div>
+            <div class="profile">
+                <img class="icon" src="assets/icons/alerts.svg">
+                <img class="image" id="pfp" src="assets/images/pfp.PNG">
+                <div class="title" id="nametag">MELLO</div>
+            </div>
+        </div>
+        <div class="functions">
+            <div class="welcome">
+                <img class="image" id="pfp" src="assets/images/pfp.PNG">
+                <div class="greetings">
+                    <p class="title--small">Hi there,<br><span class="title title--big">Joon Lim (@m3llo)</span></p>
                 </div>
             </div>
-            <div class="functions">
-                <div class="welcome">
-                    <img class="image" id="pfp" src="assets/images/pfp.PNG">
-                    <div class="greetings">
-                        <p class="title--small">Hi there,<br><span class="title title--big">Joon Lim (@m3llo)</span></p>
+            <div class="buttons">
+                <button type="button">New</button>
+                <button type="button">Upload</button>
+                <button type="button">Share</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="branding">
+            <img class="icon" id="brand-icon" src="assets/icons/dash-icon.svg">
+            <h2 id="brand-name">Dashboard</h2>
+        </div>
+        <ul class="navbar">
+            <li class="link"><img class="icon" src="assets/icons/home.svg">Home</li>
+            <li class="link"><img class="icon" src="assets/icons/profile.svg">Profile</li>
+            <li class="link"><img class="icon" src="assets/icons/messages.svg">Messages</li>
+            <li class="link"><img class="icon" src="assets/icons/history.svg">History</li>
+            <li class="link"><img class="icon" src="assets/icons/tasks.svg">Tasks</li>
+            <li class="link"><img class="icon" src="assets/icons/community.svg">Communities</li>
+        </ul>
+        <ul class="navbar">
+            <li class="link"><img class="icon" src="assets/icons/settings.svg">Settings</li>
+            <li class="link"><img class="icon" src="assets/icons/help.svg">Support</li>
+            <li class="link"><img class="icon" src="assets/icons/privacy.svg">Privacy</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="projects">
+            <h2 class="title">Your Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h2 class="title">Super Cool Project</h2>
+                    <p class="card-text">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat,
+                        id facilisis felis accumsan nec.</p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
                     </div>
-                </div>
-                <div class="buttons">
-                    <button type="button">New</button>
-                    <button type="button">Upload</button>
-                    <button type="button">Share</button>
-                </div>
+                </article>
+                <article class="project-card">
+                    <h2 class="title">Less Cool Project</h2>
+                    <p class="card-text">
+                        Nullam condimentum ipsum ut lectus vehicula consectetur.
+                        Quisque sed dolor tincidunt,
+                        consectetur sapien et, facilisis dolor. Duis sem purus,
+                        dignissim ut sapien in, varius pellentesque lacus.
+                    </p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h2 class="title">Impossible App</h2>
+                    <p class="card-text">
+                        In hac habitasse platea dictumst.
+                        Vivamus dictum rutrum arcu, a placerat velit sagittis id.
+                    </p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h2 class="title">Easy Peasy App</h2>
+                    <p class="card-text">
+                        Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.
+                        Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.
+                    </p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h2 class="title">Ad Blocker</h2>
+                    <p class="card-text">
+                        Quisque eget rutrum nisl.
+                        Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.
+                        Aliquam sed malesuada eros.
+                    </p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h2 class="title">Money Maker</h2>
+                    <p class="card-text">
+                        Praesent convallis, libero quis congue elementum,
+                        nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                        Pellentesque mollis nec sem vel aliquam.
+                    </p>
+                    <div class="options">
+                        <img class="icon" src="assets/icons/star.svg">
+                        <img class="icon" src="assets/icons/eye.svg">
+                        <img class="icon" src="assets/icons/share.svg">
+                    </div>
+                </article>
             </div>
-        </header>
-
-        <nav>
-            <div class="branding">
-                <img class="icon" id="brand-icon" src="assets/icons/dash-icon.svg">
-                <h2 id="brand-name">Dashboard</h2>
-            </div>
-            <ul class="navbar">
-                <li class="link"><img class="icon" src="assets/icons/home.svg">Home</li>
-                <li class="link"><img class="icon" src="assets/icons/profile.svg">Profile</li>
-                <li class="link"><img class="icon" src="assets/icons/messages.svg">Messages</li>
-                <li class="link"><img class="icon" src="assets/icons/history.svg">History</li>
-                <li class="link"><img class="icon" src="assets/icons/tasks.svg">Tasks</li>
-                <li class="link"><img class="icon" src="assets/icons/community.svg">Communities</li>
-            </ul>
-            <ul class="navbar">
-                <li class="link"><img class="icon" src="assets/icons/settings.svg">Settings</li>
-                <li class="link"><img class="icon" src="assets/icons/help.svg">Support</li>
-                <li class="link"><img class="icon" src="assets/icons/privacy.svg">Privacy</li>
-            </ul>
-        </nav>
-
-        <main>
-            <section id="projects">
-                <h2 class="title">Your Projects</h2>
-                <div class="project-grid">
-                    <article class="project-card">
-                        <h2 class="title">Super Cool Project</h2>
-                        <p class="card-text">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, 
-                            id facilisis felis accumsan nec.</p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <h2 class="title">Less Cool Project</h2>
-                        <p class="card-text">
-                            Nullam condimentum ipsum ut lectus vehicula consectetur. 
-                            Quisque sed dolor tincidunt,
-                            consectetur sapien et, facilisis dolor. Duis sem purus, 
-                            dignissim ut sapien in, varius pellentesque lacus.
-                        </p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <h2 class="title">Impossible App</h2>
-                        <p class="card-text">
-                            In hac habitasse platea dictumst. 
-                            Vivamus dictum rutrum arcu, a placerat velit sagittis id.
-                        </p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <h2 class="title">Easy Peasy App</h2>
-                        <p class="card-text">
-                            Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. 
-                            Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.
-                        </p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <h2 class="title">Ad Blocker</h2>
-                        <p class="card-text">
-                            Quisque eget rutrum nisl. 
-                            Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. 
-                            Aliquam sed malesuada eros.
-                        </p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <h2 class="title">Money Maker</h2>
-                        <p class="card-text">
-                            Praesent convallis, libero quis congue elementum, 
-                            nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. 
-                            Pellentesque mollis nec sem vel aliquam.
-                        </p>
-                        <div class="options">
-                            <img class="icon" src="assets/icons/star.svg">
-                            <img class="icon" src="assets/icons/eye.svg">
-                            <img class="icon" src="assets/icons/share.svg">
-                        </div>
-                    </article>
-                </div>
-            </section>
-
+        </section>
+        <div class="sidebar">
             <section id="announcements">
                 <h2 class="title">Announcements</h2>
                 <div class="notice-board">
                     <article class="notice">
                         <h2 class="title--small">Site Maintenance</h2>
-                        <p class="card-text card-text-small">Vestibulum condimentum tellus lacus, 
+                        <p class="card-text card-text-small">Vestibulum condimentum tellus lacus,
                             in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
                     </article>
                     <article class="notice">
                         <h2 class="title--small">Community Share Day</h2>
-                        <p class="card-text card-text-small">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. 
+                        <p class="card-text card-text-small">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
                             Aliquam dictum accumsan porttitor...</p>
                     </article>
                     <article class="notice">
                         <h2 class="title--small">Updated Privacy Policy</h2>
-                        <p class="card-text card-text-small">Phasellus efficitur nisi eget elit consectetur, 
+                        <p class="card-text card-text-small">Phasellus efficitur nisi eget elit consectetur,
                             eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
                     </article>
                 </div>
             </section>
-        </main>
+
+            <section id="trending">
+                <h2 class="title">Trending</h2>
+                <div class="trend-board">
+                    <article class="suggested">
+                        <img class="pfp-small" src="assets/images/">
+                        <div class="user-info">
+                            <p class="user-name">@wank</p>
+                            <p class="card-text">Black Myth Wukong</p>
+                        </div>
+                    </article>
+                    <article class="suggested">
+                        <img class="pfp-small" src="assets/images/">
+                        <div class="user-info">
+                            <p class="user-name">@j3rryyy</p>
+                            <p class="card-text">Seaweed Hair</p>
+                        </div>
+                    </article>
+                    <article class="suggested">
+                        <img class="pfp-small" src="assets/images/">
+                        <div class="user-info">
+                            <p class="user-name">@p00kieb34r</p>
+                            <p class="card-text">Peanut Addict</p>
+                        </div>
+                    </article>
+                    <article class="suggested">
+                        <img class="pfp-small" src="assets/images/">
+                        <div class="user-info">
+                            <p class="user-name">@gogoK03N</p>
+                            <p class="card-text">No. 1 Rizzler</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
